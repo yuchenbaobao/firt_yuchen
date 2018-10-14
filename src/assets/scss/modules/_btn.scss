@@ -1,7 +1,0 @@
-.btn{
-    cursor: pointer;
-    @include flex(center,center);
-    &.round{
-        border-radius: 100px;
-    }
-}
