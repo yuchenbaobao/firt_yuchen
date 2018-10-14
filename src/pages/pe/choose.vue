@@ -5,7 +5,7 @@
         <p class="exchange" ><button v-for="(d,i) in tabDatas" @click="curIndex=i;man(d)" v-bind:class="{active:i==curIndex}" :key="i">{{d.title}}</button></p>
     </div>
     <div class="en">
-        <!-- <p class="text">美年大健康~天心分院</p> -->
+        <p class="text">美年大健康~天心分院</p>
         <div class="table" v-show="man1">
             <table >    
                 <tr class="table_header">
