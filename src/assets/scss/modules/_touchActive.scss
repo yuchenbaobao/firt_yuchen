@@ -1,0 +1,26 @@
+
+.touch-item{
+    position: relative;
+    &:active:not(.disabled){
+        &:before{
+            content:'';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color:#ccc;
+            opacity: 0.2;
+            z-index: 1;
+        }
+    }
+}
+.touch-item-b{
+    &:active{
+        background-color: rgba(204,204,204,0.1);
+    }
+}
+
+.hover-scale{
+
+}

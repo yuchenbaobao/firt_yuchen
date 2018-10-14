@@ -1,0 +1,88 @@
+@import "../modules/var";
+@import "../modules/mixin";
+.userCenter{
+    .my-layout{
+        background-color: white;
+        :last-child{
+            border: 0;
+        }
+    }
+    .common-row {
+        @include flex(space-between,center);
+        margin: 0 30px;
+        padding: 30px 0;
+        border-bottom: 1px solid #eee;
+        cursor: pointer;
+        background-color: white;
+        .left {
+            display: flex;
+            flex: 1;
+            width:500px;
+            span{
+                @include ellipsis(1);
+            }
+            .round {
+                display: block;
+                float: right;
+                width: 10px;
+                height: 10px;
+                margin-left: 5px;
+                border-radius: 10px;
+                background-color: red;
+            }
+        }
+        .right {
+            display: flex;
+            align-items: center;
+            .iconfont {
+                font-size: 30px;
+                margin-left: 20px;
+                color: #eee;
+            }
+        }
+    }
+
+    .main {
+        padding: 30px 45px;
+        border-radius: $radius-small;
+        p {
+            color: #999;
+            line-height: 39px;
+            font-size: 26px;
+            color:#666666;
+        }
+        p+p{
+            margin-top: 45px;
+        }
+    }
+    .btn {
+        @include flex(center,center);
+        width: 80%;
+        height: 80px;
+        margin: 50px auto;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        &.btn-primary{
+            background-color: #FF4D00;
+        }
+        &.small-round {
+            border-radius: $radius-small;
+        }
+        &.big-round {
+            border-radius: $radius-big;
+        }
+        &.disabled{
+            background-color: #cccccc;
+            color:white;
+        }
+    }
+
+    .orange {
+        color: #FF4D00;
+    }
+    .gray {
+        color: #ccc;
+    }
+}
+

@@ -1,0 +1,24 @@
+.pop{
+    .icon-close {
+        font-size: 24px;
+        position: absolute;
+        top: 34px;
+        right: 34px;
+        color: #999;
+        cursor: pointer;
+        z-index: 100;
+    }
+}
+
+.pop-modal {
+    .content{
+        position: relative;
+    }
+    &.right{
+        height: 100%;
+        position: absolute !important;
+    }
+    width: 750px;
+    margin: 0 auto;
+    background: white;
+}
