@@ -18,7 +18,7 @@
                     <td class="th2 padding" style="text-align:left">{{item.clinical}}</td>
                 </tr>
             </table> -->
-            <table v-show="Man2">
+            <!-- <table v-show="Man2">
                 <tr class="table_header">
                     <th class="th1 border">体检项目</th>
                     <th class="th2 border">体检内容</th>
@@ -92,7 +92,7 @@
                     <td class="th2 padding" style="text-align:left">{{item.Column2}}</td>
                 </tr>
             </table>
-        </div>
+        </div> -->
         <div class="down" @click="$router.go(-1)">
             返回
         </div>
