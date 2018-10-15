@@ -10,6 +10,7 @@ const Info = resolve => require(['@/pages/pe/info'], resolve)
 const Detail = resolve => require(['@/pages/pe/detail'], resolve)
 const Fill = resolve => require(['@/pages/pe/fill'], resolve)
 const Date = resolve => require(['@/pages/pe/date'], resolve)
+const Choose = resolve => require(['@/pages/pe/choose'], resolve)
 
 Vue.use(Router)
 
@@ -43,6 +44,11 @@ export default new Router({
             path: '/pe/date',
             component: Date,
             name: 'Date'
+        },
+        {
+            path: '/pe/choose',
+            component: Choose,
+            name: 'Choose'
         },
 
     ],

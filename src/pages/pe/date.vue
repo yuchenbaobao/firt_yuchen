@@ -6,9 +6,9 @@
         </div>
         <div class="day">
             <div class="month">
-                <!-- 11月份 -->
-                {{month}}份
-                <p>{{nowTime}}</p>
+                11月份
+                <!-- {{month}}份 -->
+                <!-- <p>{{nowTime}}</p> -->
             </div>
             <div class="line"></div>
             <div class="today">
