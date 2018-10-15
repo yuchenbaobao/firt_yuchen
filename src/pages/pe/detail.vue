@@ -1,11 +1,11 @@
 <template>
     <div class="institutions">
         <com-header>体检套餐</com-header>
-        <div class="up">
+        <!-- <div class="up">
             <p class="up1">已选套餐：</p>
             <p class="up2">男1套餐</p>
-        </div>
-        <div class="table">
+        </div> -->
+        <!-- <div class="table">
             <table v-show="true">
                 <tr class="table_header" >
                     <th class="th1 border">体检项目</th>
@@ -17,7 +17,7 @@
                     <td class="th2" style="text-align:left">{{item.column1}}</td>
                     <td class="th2 padding" style="text-align:left">{{item.clinical}}</td>
                 </tr>
-            </table>
+            </table> -->
             <table v-show="Man2">
                 <tr class="table_header">
                     <th class="th1 border">体检项目</th>
